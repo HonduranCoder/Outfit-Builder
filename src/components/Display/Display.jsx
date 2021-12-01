@@ -1,5 +1,9 @@
-import React from 'react';
-
-export default function Display() {
-  return <div></div>;
+export default function Display({ catchphrases }) {
+  return (
+    <div>
+      {catchphrases.map((catchphrase) => (
+        <p key={catchphrase}>{catchphrase}</p>
+      ))}
+    </div>
+  );
 }

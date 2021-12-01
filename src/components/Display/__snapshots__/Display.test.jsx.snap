@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Display component 1`] = `
+<div>
+  <div>
+    <p>
+      cheer
+    </p>
+    <p>
+      cry
+    </p>
+    <p>
+      nod
+    </p>
+  </div>
+</div>
+`;

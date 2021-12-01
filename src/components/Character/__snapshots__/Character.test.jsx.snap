@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render pieces of character 1`] = `
+<div>
+  <section
+    style="display: flex; flex-direction: column;"
+  >
+    <article
+      aria-label="face"
+      class="face"
+      style="background-image: url(./smiley-head.png); height: 150px; width: 150px; background-size: cover; background-repeat: no-repeat;"
+    />
+    <article
+      aria-label="top"
+      class="top"
+      style="background-image: url(./tank-top.png); height: 150px; width: 150px; background-size: cover; background-repeat: no-repeat;"
+    />
+    <section
+      style="display: flex; flex-direction: column;"
+    >
+      <article
+        aria-label="bottom"
+        class="bottom"
+        style="background-image: url(./shorts-bottom.png); height: 150px; width: 150px; background-size: cover; background-repeat: no-repeat;"
+      />
+    </section>
+  </section>
+</div>
+`;
