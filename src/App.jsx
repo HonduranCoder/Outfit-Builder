@@ -27,12 +27,12 @@ function App() {
             onTopChange={setTop}
             bottom={bottom}
             onBottomChange={setBottom}
-            newCatchPhrase={newCatchphrase}
+            newCatchphrase={newCatchphrase}
             setCatchphrase={setNewCatchphrase}
             handleClick={handleClick}
           />
           <Display catchphrases={catchphrases} />
-          <Character head={head} middle={middle} />
+          <Character face={face} top={top} bottom={bottom} />
         </header>
       </main>
     </div>
